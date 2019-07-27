@@ -1,0 +1,44 @@
+/* miniprogram/pages/my/my.wxss */
+.container {
+  background: 	#87CEFA;
+  align-items: center;
+}
+.head {
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 30rpx;
+}
+.name {
+  margin: 30rpx;
+  color: #FFA500;
+  font-size: 40rpx;
+}
+.itemList{
+  background: #f9f9f9;
+}
+.power{
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+.weui-cells{
+  font-size: 45rpx;
+}
+.item{
+  background-color: #ffffff;
+  text-align:left;
+  text-decoration:none;
+  border: none;
+  border-radius: 0;
+  font-size: 45rpx;
+}
+button{
+  padding-left: 0px;
+  line-height: 1.42;
+}
+.item::after {
+  border: none;
+  border-radius: 0;
+}
+.active{
+  background: #ececec;
+}
